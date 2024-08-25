@@ -3,7 +3,7 @@ export default function About() {
   return (
     <div className="sm:px-6 p-4 w-full h-full">
       <div>
-        <h3 className="text-6xl font-bold text-gray-800">Little about me,</h3>
+        <h3 className="text-6xl  text-gray-800">Little about me,</h3>
         <div className="mt-4">
           <p className="text-gray-500 text-lg leading-10 w">
             I’m a Software Developer with nearly two years of experience
