@@ -1,4 +1,3 @@
-// components/Contact.js
 import ContactForm from "./ContactForm";
 
 export default function Contact() {
@@ -7,7 +6,7 @@ export default function Contact() {
       <div className="mb-10 flex flex-col justify-center items-start gap-3 ml-3">
         <h1 className="text-lg text-zinc-600 font-bold self-start">Contact</h1>
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 self-start ml-5">
-          Let's Get In Touch
+          Let&apos;s Get In Touch
         </h1>
       </div>
       <div className="font-[sans-serif] max-w-6xl mx-auto relative bg-[#1A1A1A] shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl overflow-hidden mt-4">
@@ -18,7 +17,7 @@ export default function Contact() {
             <h1 className="text-3xl font-bold">Hiya,</h1>
             <p className="text-zinc-400">
               Have an exciting project where we can work together? Or just want
-              to say hi, do send me a message and let's chat.
+              to say hi, do send me a message and let&apos;s chat.
             </p>
           </div>
           <ContactForm />
