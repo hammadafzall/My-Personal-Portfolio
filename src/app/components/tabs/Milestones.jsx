@@ -1,0 +1,82 @@
+// components/Milestones.js
+export default function Milestones() {
+  return (
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 md:gap-36 w-full overflow-hidden md:w-full md:ml-0 h-full">
+      <div id="timeline-content" className="mt-12 text-center">
+        <h1 className="text-2xl text-zinc-200 mb-8">Experience</h1>
+        <ul className="relative border-l-4 border-blue-600 bg-[#1A1A1A] text-gray-600 font-sans px-8 py-8 max-w-lg">
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-5 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">Web Development Intern</h3>
+              <p>Convent Generation IT</p>
+              <span className=" text-gray-400 text-sm font-light w-full text-left ">
+                June, 2019 - August, 2019
+              </span>
+            </div>
+          </li>
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-5 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">Junior Web Developer</h3>
+              <p>Convent Generation IT</p>
+              <span className=" text-gray-400 text-sm font-light w-full text-left ">
+                August,2019 -January 2020
+              </span>
+            </div>
+          </li>
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-5 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">Web Developer</h3>
+              <p>Self Employeed</p>
+              <span className=" text-gray-400 text-sm font-light w-full text-left">
+                May 2023 - Current
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="timeline-content" className="mt-12 text-center">
+        <h1 className="text-2xl text-zinc-200 mb-8">Education</h1>
+        <ul className="relative border-l-4 border-blue-600 bg-[#1A1A1A]  text-gray-600 font-sans mx-auto px-8 py-8 max-w-lg">
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-3 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">
+                Bs(Hons) Computer Science
+              </h3>
+              <p>Government College University, Faisalabad</p>
+              <span className="text-gray-400 text-sm font-light w-full text-left ">
+                2015-2019
+              </span>
+            </div>
+          </li>
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-3 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">MSc. Digial Marketing </h3>
+              <p>Oxford Brookes University, Oxford</p>
+              <span className="text-gray-400 text-sm font-light w-full text-left">
+                2020-2021
+              </span>
+            </div>
+          </li>
+          <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
+            <div className="absolute -left-[40.9px] top-3 bg-blue-600 rounded-full h-4 w-4"></div>
+            <div className=" flex flex-col items-start">
+              <h3 className="text-xl font-bold mb-2">
+                MSc International Business
+                <br /> with Data Analytics
+              </h3>
+              <p>Ulster University, Birmingham</p>
+              <span className="text-gray-400 text-sm font-light w-full text-left">
+                2021-2022
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
