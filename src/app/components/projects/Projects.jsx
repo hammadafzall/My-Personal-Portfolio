@@ -3,7 +3,7 @@ import ProjectList from "./ProjectList";
 
 export default function Projects() {
   return (
-    <section className="mt-20 mb-20 py-20 w-full h-full">
+    <section className="md:mt-20 md:mb-20 py-20 w-full h-full">
       <SectionHeader
         title="Projects"
         subtitle="Things I've Built,"

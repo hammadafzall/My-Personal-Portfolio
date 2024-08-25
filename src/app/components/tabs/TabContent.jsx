@@ -12,14 +12,16 @@ export default function TabContent({ activeTab }) {
       )}
       {activeTab === "skill" && (
         <div id="skillContent" className="w-full h-full block mt-8">
-          <h4 className="text-lg font-bold text-gray-600">Skills</h4>
+          <h4 className="text-lg font-bold text-gray-600">
+            Tools & Technologies
+          </h4>
           <Skills />
         </div>
       )}
       {activeTab === "education" && (
         <div id="educationContent" className="w-full h-full block mt-8">
           <h4 className="text-lg font-bold text-gray-600">
-            Education/Experience
+            My Personal Journey
           </h4>
           <Milestones />
         </div>

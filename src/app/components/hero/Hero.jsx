@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className=" w-full h-full flex flex-col gap-10 py-36">
+    <section className=" w-full h-full flex flex-col gap-10 lg:py-10">
       <div className=" w-full h-full flex flex-row justify-start items-start mt-20">
         <Image
           src="/self.jpeg"
@@ -14,7 +14,9 @@ function Hero() {
       </div>
       <div className=" flex flex-col justify-center gap-2 items-center mt-2 text-zinc-400">
         <h1 className=" text-3xl">Hi, I am</h1>
-        <h2 className=" text-blue-500 text-6xl text-center">Hammad Afzal</h2>
+        <h2 className=" text-blue-500 text-4xl md:text-6xl text-center">
+          Hammad Afzal
+        </h2>
         <p className=" text-center">
           A Software Developer and Digital Marketer.
         </p>

@@ -4,7 +4,7 @@ const ProjectsList = [
   {
     name: "RA Plumbing and Heating",
     description:
-      "Web application for a Nottingham-based business. The design features descriptive content paired with relevant images, creating a visually engaging and informative user experience.",
+      "Web app for a Nottingham-based business. The design features descriptive content paired with relevant images, creating a visually engaging and informative user experience.",
     tools:
       "React, TypeScript, Tailwind, Swiper.Js, React Router, Google Maps, Helmet, NPM Packages",
     image: "/plumbing.JPG",
@@ -27,13 +27,13 @@ const ProjectsList = [
       "Developed my developer portfolio to showcase skills and experience.",
     tools: "Next.js-14, Tailwind, JavaScript, Node.js, Node Mailer",
     image: "/portfolio.JPG",
-    link: "d",
-    github: "d",
+    link: "https://hammadafzal.vercel.app/",
+    github: "https://github.com/hammad42662/My-Personal-Portfolio",
   },
   {
     name: "Big Phone Store",
     description:
-      "Developed an Amazon-like product page with zoom image functionality that works on both large and small screen devices.",
+      "Created an Amazon-like product page with zoom image functionality using Vue.js that works on both large and small screen devices.",
     tools: "Vue, JavaScript, Tailwind",
     image: "/big-phone.JPG",
     link: "https://bigphonestore.netlify.app/",

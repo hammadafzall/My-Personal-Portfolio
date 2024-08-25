@@ -5,7 +5,7 @@ export default function About() {
       <div>
         <h3 className="text-6xl font-bold text-gray-800">Little about me,</h3>
         <div className="mt-4">
-          <p className="text-gray-500 text-lg leading-10">
+          <p className="text-gray-500 text-lg leading-10 w">
             I’m a Software Developer with nearly two years of experience
             specializing in front-end development and a solid foundation in
             backend technologies. Over the past year as a Freelance Web
