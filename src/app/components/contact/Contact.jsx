@@ -19,7 +19,7 @@ export default function Contact() {
             </h1>
             <p className="text-zinc-400">
               Working on an exciting project where we could collaborate? Or just
-              want to connect? Feel free to send me a message — I'd love to
+              want to connect? Feel free to send me a message — I&apos;d love to
               chat!
             </p>
           </div>
