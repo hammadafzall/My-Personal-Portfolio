@@ -8,12 +8,12 @@ export default function Tabs() {
 
   const tabs = [
     { id: "about", label: "About" },
-    { id: "skill", label: "Skills" },
+    { id: "tools", label: "Tools" },
     { id: "education", label: "Milestones" },
   ];
 
   return (
-    <section className=" mt-10 lg:mt-20 font-sans p-4 pb-20 flex flex-col justify-center items-center w-full h-full bg-[#1A1A1A]">
+    <section className=" mt-10 lg:mt-20 p-4 pb-20 flex flex-col justify-center items-center w-full h-full bg-[#1A1A1A]">
       <ul className="flex gap-2 w-auto bg-[#1A1A1A] p-1 mt-10 rounded-full shadow-[0_2px_8px_-1px_rgba(6,81,237,0.4)]">
         {tabs.map((tab) => (
           <Tab

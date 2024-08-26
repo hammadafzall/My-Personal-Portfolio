@@ -1,14 +1,18 @@
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import { RiLinkedinLine } from "react-icons/ri";
-
+import { Dancing_Script } from "next/font/google";
+const dancingScript = Dancing_Script({ subsets: ["latin"] });
 function Nav() {
   return (
-    <header className=" bg-[#1A1A1A] py-3 px-6 sm:px-10 font-[sans-serif] min-h-[70px] tracking-wide w-full ">
-      <div className="flex flex-wrap items-center justify-between gap-4 w-full">
-        <a href="javascript:void(0)">
-          <h1 className="text-blue-200">Hammad Afzal</h1>
-        </a>
+    <header className=" bg-[#1A1A1A] py-3 px-6 sm:px-10 min-h-[70px] tracking-wide w-full shadow-lg ">
+      <div className="flex items-center justify-between gap-4 w-full">
+        <h1
+          className={`${dancingScript.className} w-full text-2xl animate-pulse sm:text-4xl bg-gradient-to-r from-blue-500 via-blue-100 to-blue-500 bg-clip-text text-transparent font-black`}
+        >
+          H.A
+        </h1>
+
         <div className=" text-zinc-300 flex flex-row gap-2 ">
           <a
             href="https://www.github.com/hammad42662"

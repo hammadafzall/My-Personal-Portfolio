@@ -45,7 +45,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="rounded-tl-3xl rounded-bl-3xl mb-10 sm:mb-5 md:mb-0"
     >
-      <h2 className="text-2xl text-blue-800 font-bold text-center mb-6">
+      <h2 className="text-2xl text-blue-600 font-bold text-center mb-6">
         Please fill the form
       </h2>
       <div className="max-w-md mx-auto space-y-3 relative">

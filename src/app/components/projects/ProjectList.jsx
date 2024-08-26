@@ -23,8 +23,7 @@ const ProjectsList = [
   },
   {
     name: "Personal Portfolio",
-    description:
-      "Developed my developer portfolio to showcase skills and experience.",
+    description: "Developed my  portfolio to showcase skills and experience.",
     tools: "Next.js-14, Tailwind, JavaScript, Node.js, Node Mailer",
     image: "/portfolio.JPG",
     link: "https://hammadafzal.vercel.app/",
@@ -33,7 +32,7 @@ const ProjectsList = [
   {
     name: "Big Phone Store",
     description:
-      "Created an Amazon-like product page with zoom image functionality using Vue.js that works on both large and small screen devices.",
+      "Created an Amazon-like product page with zoom image functionality using Vue.js that works on large small and touch devices.",
     tools: "Vue, JavaScript, Tailwind",
     image: "/big-phone.JPG",
     link: "https://bigphonestore.netlify.app/",

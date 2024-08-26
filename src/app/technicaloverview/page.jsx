@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function RA() {
   return (
     <section className=" text-white flex flex-col justify-start items-start mt-10 ml-10 mb-10">
-      <Link href="/" className=" bg-blue-500 px-2 py-2">
+      <Link href="/" className=" text-zinc-600 bg-blue-200 px-2 py-2">
         &#9664; Back to Home
       </Link>
       <h1 className=" mb-10 self-center text-2xl text-blue-400">
         Technical Overview: RA Plumbing and Heating
       </h1>
       <div className=" flex flex-col gap-3 w-10/12">
-        <h1 className=" text-2xl font-semibold text-blue-300">Description</h1>
+        <h1 className=" text-2xl font-semibold text-blue-400">Description</h1>
         <p className=" text-base">
           Developed a comprehensive web application for R A Plumbing and
           Heating, a Nottingham-based small plumbing business. The design
@@ -54,12 +54,11 @@ export default function RA() {
         </li>
         <li>
           <b className=" text-blue-200">Performance Metrics:</b> The app
-          features clean code, minimal bugs, and optimized load times for better
-          performance.
+          features clean code and optimized load times for better performance.
         </li>
       </ul>
       <b className=" text-xl mt-10 text-blue-400">Technologies Used:</b>
-      <p className=" text-sm lg:ml-10">
+      <p className=" text-base lg:ml-10 mt-3">
         React, TypeScript, Tailwind CSS, Vite, EmailJS, Swiper JS, React Router,
         Google Maps API, React Helmet, React Floating WhatsApp, Scroll to Top,
         Sticky Box

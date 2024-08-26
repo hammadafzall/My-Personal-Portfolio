@@ -7,7 +7,7 @@ export default function Projects() {
       <SectionHeader
         title="Projects"
         subtitle="Things I've Built,"
-        description="Here's a selection of my mix of client's projects and personal projects. For more stuff, kindly check out my GitHub repositories."
+        description="Here's a selection of my mix of client's projects and personal projects. For more projects, kindly check out my GitHub repositories."
       />
       <ProjectList />
     </section>
