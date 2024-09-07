@@ -18,9 +18,7 @@ export default function Contact() {
               Hi, Hola, Salam, Bonjour...
             </h1>
             <p className="text-zinc-400">
-              Working on an exciting project where we could collaborate? Or just
-              want to connect? Feel free to send me a message — I&apos;d love to
-              chat!
+             Interested in collaborating on an exciting project or looking to add a skilled web developer to your team? Feel free to reach out — I&apos;d love to discuss how I can contribute!
             </p>
           </div>
           <ContactForm />
