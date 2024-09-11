@@ -12,7 +12,7 @@ const ProjectsList = [
     github: "/technicaloverview",
   },
   {
-    name: "Task Manager",
+    name: "Task Box",
     description:
       "Task-box is based on time boxing technique. Simple and appealing design to increase productivity on a daily basis.",
     tools:
