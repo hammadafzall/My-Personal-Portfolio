@@ -5,7 +5,7 @@ const Tools = [
     knowledge: "90%",
     widthClass: "w-11/12",
   },
-  { skill: "React", knowledge: "85%", widthClass: "w-10/12" },
+  { skill: "React", knowledge: "90%", widthClass: "w-11/12" },
   { skill: "Next.js (v14)", knowledge: "85%", widthClass: "w-10/12" },
   { skill: "Tailwind CSS", knowledge: "90%", widthClass: "w-11/12" },
   { skill: "Vue.js", knowledge: "80%", widthClass: "w-4/5" },
@@ -15,8 +15,6 @@ const Tools = [
   { skill: "GIT & GitHub", knowledge: "90%", widthClass: "w-11/12" },
   { skill: "NPM", knowledge: "80%", widthClass: "w-4/5" },
   { skill: "Postman", knowledge: "80%", widthClass: "w-4/5" },
-  { skill: "Clean Code Principles", knowledge: "80%", widthClass: "w-4/5" },
-  { skill: "Responsive Design", knowledge: "90%", widthClass: "w-11/12" },
 ];
 
 export default Tools;
