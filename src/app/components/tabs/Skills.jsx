@@ -7,7 +7,7 @@ export default function Skills() {
       </h3>
       <div className="flex flex-col xl:items-start xl:justify-start xl:ml-0 xl:flex-row mt-6">
         <ul className="flex flex-col w-full h-96">
-          {Tools.slice(0, 7).map((tool, index) => (
+          {Tools.slice(0, 6).map((tool, index) => (
             <li
               key={index}
               className="w-full h-full flex flex-col items-start justify-start py-2"
@@ -25,7 +25,7 @@ export default function Skills() {
           ))}
         </ul>
         <ul className="flex flex-col w-full h-96">
-          {Tools.slice(7).map((tool, index) => (
+          {Tools.slice(6).map((tool, index) => (
             <li
               key={index}
               className="w-full h-full flex flex-col items-start justify-start py-2"
