@@ -55,7 +55,7 @@ export default function Milestones() {
               <div className="absolute -left-[40.9px] top-5 bg-blue-600 rounded-full h-4 w-4"></div>
               <div className=" flex flex-col items-start">
                 <h3 className="text-xl font-bold mb-2">
-                  Web Development Intern
+                  Frontend Developer Intern
                 </h3>
                 <p>Convent Generation IT</p>
                 <span className=" text-gray-400 text-sm font-light w-full text-left ">
