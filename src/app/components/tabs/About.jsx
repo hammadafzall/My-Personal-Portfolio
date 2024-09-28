@@ -7,7 +7,7 @@ export default function About() {
       </h3>
       <div className="mt-4">
         <p className="text-gray-500 text-lg leading-10 ">
-          I’m a Website Developer with nearly two years of experience
+          I’m a Software Developer with nearly two years of experience
           specializing in front-end development and fundamental knowledge of
           backend technologies. Over the past year as a Web Developer,
           I’ve created visually engaging and user-friendly websites for various
