@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="text-3xl">Hi, I am</h1>
         <TypeWriter text="HAAMMAD AFZAL" speed={300} />
         <p className="text-center">
-          A Website Developer.
+          A Software Developer.
         </p>
         <p className="text-xl text-center">
           I build interactive and responsive <span className="text-blue-500">Websites</span>{" "}
