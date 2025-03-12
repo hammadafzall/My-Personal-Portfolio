@@ -7,16 +7,17 @@ export default function About() {
       </h3>
       <div className="mt-4">
         <p className="text-gray-500 text-lg leading-10 ">
-          I’m a Software Developer with nearly two years of experience
-          specializing in front-end development and fundamental knowledge of
-          backend technologies. Over the past year as a Web Developer,
-          I’ve created visually engaging and user-friendly websites for various
-          clients. Previously, I spent eight months at Convent Generation IT as
-          a Junior Frontend Developer, where I worked on responsive web pages and
-          collaborated closely with senior developers on key projects. I’m
-          passionate about building seamless digital experiences and am
-          committed to delivering high-quality work that meets both client and
-          user needs.
+          As a Front-End Developer with
+          <span className=" ml-1 mr-1 text-2xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent font-black">
+            4+
+          </span>
+          years of experience, I specialize in crafting digital solutions that
+          drive results. My expertise lies in creating visually engaging,
+          user-centric websites, backed by a solid understanding of back-end
+          technologies. My experience at Convent Generation IT and my successful
+          freelance projects have honed my ability to translate client needs
+          into impactful online experiences. I&apos;m passionate about building
+          seamless, high-performance websites that deliver tangible value.
         </p>
       </div>
     </div>

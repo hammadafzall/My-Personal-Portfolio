@@ -16,9 +16,7 @@ export default function Milestones() {
                   Bs(Hons) Computer Science
                 </h5>
                 <p>Government College University, Faisalabad</p>
-                <span className="text-gray-400 text-sm font-light w-full text-left ">
-                  2015-2019
-                </span>
+                <span className="text-gray-400 text-sm font-light w-full text-left "></span>
               </div>
             </li>
             <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
@@ -28,9 +26,7 @@ export default function Milestones() {
                   MSc. Digital Marketing
                 </h3>
                 <p>Oxford Brookes University, Oxford</p>
-                <span className="text-gray-400 text-sm font-light w-full text-left">
-                  2020-2021
-                </span>
+                <span className="text-gray-400 text-sm font-light w-full text-left"></span>
               </div>
             </li>
             <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
@@ -41,9 +37,7 @@ export default function Milestones() {
                   <br /> with Data Analytics
                 </h3>
                 <p>Ulster University, Birmingham</p>
-                <span className="text-gray-400 text-sm font-light w-full text-left">
-                  2021-2022
-                </span>
+                <span className="text-gray-400 text-sm font-light w-full text-left"></span>
               </div>
             </li>
           </ul>
@@ -66,10 +60,12 @@ export default function Milestones() {
             <li className="relative border-b border-dashed border-gray-400 py-4 last:border-none">
               <div className="absolute -left-[40.9px] top-5 bg-blue-600 rounded-full h-4 w-4"></div>
               <div className=" flex flex-col items-start">
-                <h3 className="text-xl font-bold mb-2">Junior Front-end Developer</h3>
+                <h3 className="text-xl font-bold mb-2">
+                  Junior Front-end Developer
+                </h3>
                 <p>Convent Generation IT</p>
                 <span className=" text-gray-400 text-sm font-light w-full text-left ">
-                  August,2019 -January 2020
+                  September,2019 - May 2020
                 </span>
               </div>
             </li>
@@ -79,7 +75,7 @@ export default function Milestones() {
                 <h3 className="text-xl font-bold mb-2">Web Developer</h3>
                 <p>Self Employeed</p>
                 <span className=" text-gray-400 text-sm font-light w-full text-left">
-                  May 2023 - Current
+                  May 2020 - Current
                 </span>
               </div>
             </li>
