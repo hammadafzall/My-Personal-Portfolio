@@ -9,7 +9,7 @@ export default function About() {
         <p className="text-gray-500 text-lg leading-10 ">
           As a Front-End Developer with
           <span className=" ml-1 mr-1 text-2xl bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent font-black">
-            4+
+            3+
           </span>
           years of experience, I specialize in crafting digital solutions that
           drive results. My expertise lies in creating visually engaging,
